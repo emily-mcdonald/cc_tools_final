@@ -35,7 +35,7 @@ class GameLibrary:
 
     def __str__(self):
         return_str = "Analyzing game library data:\n"
-        game_count = 0
+        game_count = 1
         for game in self.games:
             return_str += "  Game " + str(game_count) + "\n"
             return_str += "    Title = " + game.title + "\n"

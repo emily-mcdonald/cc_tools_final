@@ -1,0 +1,34 @@
+{
+	"games": [
+	{
+		"Title": "Chip's Challenge",
+		"Year": 1989,
+		"Platform": {
+			"Launch year": 1989,
+			"Name": "Atari Lynx"
+		}
+	},
+
+
+	{
+		"Title": "Chip's Challenge 2",
+		"Year": 2015,
+		"Platform": {
+			"Launch year": 2003,
+			"Name": "Steam"
+		}
+	},
+
+
+	{
+		"Title": "Horizon Zero Dawn",
+		"Year": 2017,
+		"Platform": {
+			"Launch year": 2013,
+			"Name": "PS4"
+		}
+	} ]
+}
+
+
+
