@@ -9,6 +9,7 @@ RLE_CODE_INT = 255
 
 READ_ADDRESS = 0
 
+
 def do_read(reader, byte_count):
     """Utility read function to enable address tracking and other debugging when reading binary files
     Currently keeps track of the current byte address in the file in the global variable TEMP_ADDRESS
@@ -220,7 +221,7 @@ def calculate_level_byte_size(level):
     optional_fields_size = calculate_total_optional_field_byte_size(level.optional_fields)
     upper_layer_size = len(level.upper_layer)
     lower_layer_size = len(level.lower_layer)
-    return 14 + upper_layer_size + lower_layer_size + optional_fields_size
+    return int(14 + upper_layer_size + lower_layer_size + optional_fields_size)
 
 
 def write_field_to_dat(field, writer):
